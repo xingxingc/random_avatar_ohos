@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#121212"
+    },
+    {
+      "name": "black18",
+      "value": "#EDEDED"
+    },
+    {
+      "name": "black33",
+      "value": "#CFCFCF"
+    },
+    {
+      "name": "grey77",
+      "value": "#A0A0A0"
+    },
+    {
+      "name": "greyCE",
+      "value": "#5A5A5A"
+    },
+    {
+      "name": "line",
+      "value": "#2A2A2A"
+    },
+    {
+      "name": "background",
+      "value": "#121212"
+    },
+    {
+      "name": "copy_blue",
+      "value": "#4DA3FF"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "/Users/aiqikeji/Documents/workspace_harmony_os/鸿蒙开发-证书/suijitouxiang.p12",
+          "storePassword": "0000001BF7A068D53BF8B55373ABB190044A7DA564AE7074C380DFC6599FCBEDBA809A9909EADDC59FC63C",
+          "keyAlias": "suijitouxiang",
+          "keyPassword": "0000001B55A4F68CE3A4746FB39E7A3A4FD61E200790068D6415FB0556357DEEF625ACBB2CE6E2DBBB18F4",
+          "signAlg": "SHA256withECDSA",
+          "profile": "/Users/aiqikeji/Documents/workspace_harmony_os/鸿蒙开发-证书/sjtx/sjtx-productionRelease.p7b",
+          "certpath": "/Users/aiqikeji/Documents/workspace_harmony_os/鸿蒙开发-证书/sjtx/xing.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "5.1.0(18)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

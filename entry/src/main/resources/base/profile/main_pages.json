@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/main/MainPage",
+    "pages/random/shape_stack/ShapeStackPage",
+    "pages/random/ugly/UglyPage",
+    "pages/random/duck/DuckPage",
+    "pages/random/smile/SmilePage",
+    "pages/random/blobby/BlobbyPage",
+    "pages/random/kawaii/KawaiiPage"
+  ]
+}
